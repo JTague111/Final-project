@@ -1,0 +1,16 @@
+C:\ElevenFiftyProjects\WayToGo\WayToGo.Models\bin\Debug\WayToGo.Models.dll
+C:\ElevenFiftyProjects\WayToGo\WayToGo.Models\bin\Debug\WayToGo.Models.pdb
+C:\ElevenFiftyProjects\WayToGo\WayToGo.Models\obj\Debug\WayToGo.Models.csproj.AssemblyReference.cache
+C:\ElevenFiftyProjects\WayToGo\WayToGo.Models\obj\Debug\WayToGo.Models.csproj.CoreCompileInputs.cache
+C:\ElevenFiftyProjects\WayToGo\WayToGo.Models\obj\Debug\WayToGo.Models.dll
+C:\ElevenFiftyProjects\WayToGo\WayToGo.Models\obj\Debug\WayToGo.Models.pdb
+C:\ElevenFiftyProjects\WayToGo\WayToGo.Models\bin\Debug\WayToGo.Models.dll.config
+C:\ElevenFiftyProjects\WayToGo\WayToGo.Models\bin\Debug\EntityFramework.dll
+C:\ElevenFiftyProjects\WayToGo\WayToGo.Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\ElevenFiftyProjects\WayToGo\WayToGo.Models\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\ElevenFiftyProjects\WayToGo\WayToGo.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\ElevenFiftyProjects\WayToGo\WayToGo.Models\bin\Debug\EntityFramework.xml
+C:\ElevenFiftyProjects\WayToGo\WayToGo.Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\ElevenFiftyProjects\WayToGo\WayToGo.Models\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\ElevenFiftyProjects\WayToGo\WayToGo.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\ElevenFiftyProjects\WayToGo\WayToGo.Models\obj\Debug\WayToGo.Models.csproj.CopyComplete
