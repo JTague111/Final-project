@@ -14,3 +14,6 @@ C:\ElevenFiftyProjects\WayToGo\WayToGo.Data\bin\Debug\Microsoft.AspNet.Identity.
 C:\ElevenFiftyProjects\WayToGo\WayToGo.Data\obj\Debug\WayToGo.Data.csproj.CopyComplete
 C:\ElevenFiftyProjects\WayToGo\WayToGo.Data\obj\Debug\WayToGo.Data.dll
 C:\ElevenFiftyProjects\WayToGo\WayToGo.Data\obj\Debug\WayToGo.Data.pdb
+C:\ElevenFiftyProjects\WayToGo\WayToGo.Data\obj\Debug\WayToGo.Data.Migrations.InitialCreate.resources
+C:\ElevenFiftyProjects\WayToGo\WayToGo.Data\obj\Debug\WayToGo.Data.csproj.GenerateResource.cache
+C:\ElevenFiftyProjects\WayToGo\WayToGo.Data\obj\Debug\WayToGo.Data.Migrations.firstmigration2.resources

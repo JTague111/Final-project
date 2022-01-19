@@ -54,11 +54,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CityService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WayToGo.Data\WayToGo.Data.csproj">
+      <Project>{99d88693-d27d-42bc-8f97-32a7f2de9c0c}</Project>
+      <Name>WayToGo.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WayToGo.Models\WayToGo.Models.csproj">
+      <Project>{b5aa79dc-367e-4eed-98cf-76a9cb1db98a}</Project>
+      <Name>WayToGo.Models</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

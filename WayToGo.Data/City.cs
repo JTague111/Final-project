@@ -14,7 +14,7 @@ namespace WayToGo.Data
         [Required]
         public string Name { get; set; }
         [Required]
-        public int Population { get; set; }
+        public Guid OwnerId { get; set; }
         [Required]
         public double Longitude { get; set; }
         [Required]

@@ -14,3 +14,9 @@ C:\ElevenFiftyProjects\WayToGo\WayToGo.Services\bin\Debug\EntityFramework.SqlSer
 C:\ElevenFiftyProjects\WayToGo\WayToGo.Services\bin\Debug\Microsoft.AspNet.Identity.Core.xml
 C:\ElevenFiftyProjects\WayToGo\WayToGo.Services\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
 C:\ElevenFiftyProjects\WayToGo\WayToGo.Services\obj\Debug\WayToGo.Services.csproj.CopyComplete
+C:\ElevenFiftyProjects\WayToGo\WayToGo.Services\bin\Debug\WayToGo.Data.dll
+C:\ElevenFiftyProjects\WayToGo\WayToGo.Services\bin\Debug\WayToGo.Models.dll
+C:\ElevenFiftyProjects\WayToGo\WayToGo.Services\bin\Debug\WayToGo.Data.pdb
+C:\ElevenFiftyProjects\WayToGo\WayToGo.Services\bin\Debug\WayToGo.Data.dll.config
+C:\ElevenFiftyProjects\WayToGo\WayToGo.Services\bin\Debug\WayToGo.Models.pdb
+C:\ElevenFiftyProjects\WayToGo\WayToGo.Services\bin\Debug\WayToGo.Models.dll.config
