@@ -33,6 +33,8 @@ namespace WayToGo.Data
         }
 
         public DbSet <City> Cities { get; set; }
+        public DbSet<Route> Routes { get; set; }
+        public DbSet<Transport> Transports { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

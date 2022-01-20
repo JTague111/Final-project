@@ -10,7 +10,6 @@ namespace WayToGo.Data.Migrations
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
-            ContextKey = "WayToGo.Data.ApplicationDbContext";
         }
 
         protected override void Seed(WayToGo.Data.ApplicationDbContext context)

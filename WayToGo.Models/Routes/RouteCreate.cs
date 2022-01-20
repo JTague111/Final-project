@@ -5,14 +5,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WayToGo.Data
+namespace WayToGo.Models
 {
-    public class Route
+    public class RouteCreate
     {
-        [Key]
-        public int RouteId { get; set; }
-        [Required]
-        public Guid OwnerId { get; set; }
         [Required]
         public string Name { get; set; }
         [Required]

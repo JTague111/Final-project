@@ -3,7 +3,7 @@ namespace WayToGo.Data.Migrations
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class InitialCreate : DbMigration
+    public partial class thatmigration : DbMigration
     {
         public override void Up()
         {
@@ -42,6 +42,30 @@ namespace WayToGo.Data.Migrations
                 .ForeignKey("dbo.ApplicationUser", t => t.ApplicationUser_Id)
                 .Index(t => t.IdentityRole_Id)
                 .Index(t => t.ApplicationUser_Id);
+            
+            CreateTable(
+                "dbo.Route",
+                c => new
+                    {
+                        RouteId = c.Int(nullable: false, identity: true),
+                        OwnerId = c.Guid(nullable: false),
+                        Name = c.String(nullable: false),
+                        Origin = c.String(nullable: false),
+                        Destination = c.String(nullable: false),
+                    })
+                .PrimaryKey(t => t.RouteId);
+            
+            CreateTable(
+                "dbo.Transport",
+                c => new
+                    {
+                        TransportId = c.Int(nullable: false, identity: true),
+                        Name = c.String(nullable: false),
+                        Description = c.String(nullable: false),
+                        SpeedInMPH = c.Int(nullable: false),
+                        CostPerMile = c.Double(nullable: false),
+                    })
+                .PrimaryKey(t => t.TransportId);
             
             CreateTable(
                 "dbo.ApplicationUser",
@@ -104,6 +128,8 @@ namespace WayToGo.Data.Migrations
             DropTable("dbo.IdentityUserLogin");
             DropTable("dbo.IdentityUserClaim");
             DropTable("dbo.ApplicationUser");
+            DropTable("dbo.Transport");
+            DropTable("dbo.Route");
             DropTable("dbo.IdentityUserRole");
             DropTable("dbo.IdentityRole");
             DropTable("dbo.City");

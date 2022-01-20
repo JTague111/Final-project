@@ -56,13 +56,9 @@
   <ItemGroup>
     <Compile Include="City.cs" />
     <Compile Include="IdentityModels.cs" />
-    <Compile Include="Migrations\202201181442217_InitialCreate.cs" />
-    <Compile Include="Migrations\202201181442217_InitialCreate.Designer.cs">
-      <DependentUpon>202201181442217_InitialCreate.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202201181442560_first migration2.cs" />
-    <Compile Include="Migrations\202201181442560_first migration2.Designer.cs">
-      <DependentUpon>202201181442560_first migration2.cs</DependentUpon>
+    <Compile Include="Migrations\202201201605296_that migration.cs" />
+    <Compile Include="Migrations\202201201605296_that migration.Designer.cs">
+      <DependentUpon>202201201605296_that migration.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -74,11 +70,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202201181442217_InitialCreate.resx">
-      <DependentUpon>202201181442217_InitialCreate.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202201181442560_first migration2.resx">
-      <DependentUpon>202201181442560_first migration2.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202201201605296_that migration.resx">
+      <DependentUpon>202201201605296_that migration.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

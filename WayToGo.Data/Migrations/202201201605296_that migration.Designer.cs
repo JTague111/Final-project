@@ -7,13 +7,13 @@ namespace WayToGo.Data.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.0-30225")]
-    public sealed partial class firstmigration2 : IMigrationMetadata
+    public sealed partial class thatmigration : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(firstmigration2));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(thatmigration));
         
         string IMigrationMetadata.Id
         {
-            get { return "202201181442560_first migration2"; }
+            get { return "202201201605296_that migration"; }
         }
         
         string IMigrationMetadata.Source

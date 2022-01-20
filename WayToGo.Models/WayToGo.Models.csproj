@@ -59,15 +59,15 @@
     <Compile Include="Cities\CityEdit.cs" />
     <Compile Include="Cities\CityListItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RouteCreate.cs" />
-    <Compile Include="RouteListItem.cs" />
+    <Compile Include="Routes\RouteCreate.cs" />
+    <Compile Include="Routes\RouteDetail.cs" />
+    <Compile Include="Routes\RouteEdit.cs" />
+    <Compile Include="Routes\RouteListItem.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Routes\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
