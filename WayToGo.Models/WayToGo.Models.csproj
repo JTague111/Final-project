@@ -63,6 +63,10 @@
     <Compile Include="Routes\RouteDetail.cs" />
     <Compile Include="Routes\RouteEdit.cs" />
     <Compile Include="Routes\RouteListItem.cs" />
+    <Compile Include="Transports\TransportCreate.cs" />
+    <Compile Include="Transports\TransportDetail.cs" />
+    <Compile Include="Transports\TransportEdit.cs" />
+    <Compile Include="Transports\TransportListItem.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

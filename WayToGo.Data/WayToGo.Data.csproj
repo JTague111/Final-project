@@ -56,9 +56,9 @@
   <ItemGroup>
     <Compile Include="City.cs" />
     <Compile Include="IdentityModels.cs" />
-    <Compile Include="Migrations\202201201605296_that migration.cs" />
-    <Compile Include="Migrations\202201201605296_that migration.Designer.cs">
-      <DependentUpon>202201201605296_that migration.cs</DependentUpon>
+    <Compile Include="Migrations\202201211609528_this migration.cs" />
+    <Compile Include="Migrations\202201211609528_this migration.Designer.cs">
+      <DependentUpon>202201211609528_this migration.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -70,8 +70,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202201201605296_that migration.resx">
-      <DependentUpon>202201201605296_that migration.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202201211609528_this migration.resx">
+      <DependentUpon>202201211609528_this migration.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

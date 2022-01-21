@@ -3,7 +3,7 @@ namespace WayToGo.Data.Migrations
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class thatmigration : DbMigration
+    public partial class thismigration : DbMigration
     {
         public override void Up()
         {
@@ -60,10 +60,11 @@ namespace WayToGo.Data.Migrations
                 c => new
                     {
                         TransportId = c.Int(nullable: false, identity: true),
+                        OwnerId = c.Guid(nullable: false),
                         Name = c.String(nullable: false),
                         Description = c.String(nullable: false),
-                        SpeedInMPH = c.Int(nullable: false),
-                        CostPerMile = c.Double(nullable: false),
+                        Speed = c.Int(nullable: false),
+                        Cost = c.Double(nullable: false),
                     })
                 .PrimaryKey(t => t.TransportId);
             
