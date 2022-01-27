@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Connection String used in web.config by the application to access the database." defaultValue="Datasource=tcp:waytogodb.database.windows.net,1433;Initial Catalog=WayToGo.WebMVC_db;User Id=Handschio1@waytogodb;Password=Bookworm1" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\ElevenFiftyProjects\\Final-project\\WayToGo\.WebMVC\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+</parameters>
